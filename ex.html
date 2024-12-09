@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer with Logo and Contact</title>
+    <style>
+        /* Style for footer */
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer .footer-content {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        footer .footer-content .logo {
+            width: 150px;
+        }
+
+        footer .footer-content .contact {
+            text-align: left;
+        }
+
+        footer .footer-content .social-icons a {
+            color: white;
+            margin: 0 10px;
+            font-size: 24px;
+            text-decoration: none;
+        }
+
+        footer .footer-content .social-icons a:hover {
+            color: #00aced; /* Color change for Instagram and Facebook */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <!-- Logo -->
+            <div class="logo">
+                <img src="logo.png" alt="Logo" width="150">
+            </div>
+
+            <!-- Contact Information -->
+            <div class="contact">
+                <p>ที่อยู่: 123 ถนนตัวอย่าง, กรุงเทพฯ</p>
+                <p>โทร: 02-123-4567</p>
+            </div>
+
+            <!-- Social Media Links -->
+            <div class="social-icons">
+                <a href="https://www.instagram.com/yourusername" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" alt="Instagram" width="30">
+                </a>
+                <a href="https://www.facebook.com/yourusername" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" width="30">
+                </a>
+            </div>
+        </div>
+
+        <p>&copy; 2024 All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>

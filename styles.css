@@ -1,0 +1,40 @@
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  h2 {
+    font-weight: bold;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  
+  .carousel img {
+    height: 600px;
+    object-fit: cover;
+  }
+  
+  .card {
+    border: none;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  #contact {
+    background: #f8f9fa;
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  #contact p {
+    font-size: 1.2rem;
+  }
+  
+  .center-image {
+    text-align: center;
+  }
+  
